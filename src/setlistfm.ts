@@ -8,7 +8,7 @@ type Config = {
 
 type Query = Record<string, string | number | boolean | undefined>;
 
-class SetlistFmApi {
+export class SetlistFmApi {
   private key: string | false = false;
   private format: string = "application/json";
   private language: string = "en";
@@ -237,3 +237,4 @@ class SetlistFmApi {
 }
 
 export default SetlistFmApi;
+module.exports.default = SetlistFmApi;

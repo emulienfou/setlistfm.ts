@@ -1,6 +1,6 @@
 {
   "name": "@emulienfou/setlitfm.ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This is an easy to use, promise based API wrapper for the most recent version of the setlist.fm Web API with typings",
   "license": "MIT",
   "main": "dist/index.js",
