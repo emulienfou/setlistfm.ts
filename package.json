@@ -1,0 +1,26 @@
+{
+  "name": "@emulienfou/setlitfm.ts",
+  "version": "0.1.0",
+  "description": "This is an easy to use, promise based API wrapper for the most recent version of the setlist.fm Web API with typings",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "keywords": [
+    "setlist.fm",
+    "setlist",
+    "api",
+    "wrapper"
+  ],
+  "dependencies": {
+    "query-string": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.7",
+    "typescript": "^5.6.3"
+  }
+}
