@@ -5,6 +5,7 @@
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "author": "David Sanchez <emulienfou@gmail.com>",
   "scripts": {
     "start": "tsc && node dist/index.js",
     "build": "tsc",
